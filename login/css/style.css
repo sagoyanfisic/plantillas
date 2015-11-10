@@ -21,4 +21,6 @@ div.well{
   margin: auto;
   margin-bottom: 10px;
   width:200px;
-  height:30px;}
+  height:30px;
+  font-size: 15px;
+}

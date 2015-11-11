@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html >
-  <head>
-    <meta charset="UTF-8">
-    <title>Carrito de compras</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-
-  <body>
-
-    <h1>Gestionar Carrito</h1>
-<table class='shopping-cart'>
-  <tr>
-
-    <th>Imagen</th>
-    <th>Nombre del producto</th>
-    <th>Model</th>
-    <th>Cantidad</th>
-    <th>Unidad por precio</th>
-    <th>Totals</th>
-    <th>Opción</th>
-  </tr>
-  <tr>
-    <td class='product-image'>
-      <img src='http://s.cdpn.io/3/dingo-dog-bones.jpg'>
-    </td>
-    <td class='product-name'>
-      example_name:@
-    </td>
-    <td class='product-price'>
-      price_name:æ
-    </td>
-    <td class='product-quantity'>
-      <input type='number' value='2'>
-    </td>
-    <td class='product-line-price'>
-      $25.98
-    </td> 
-    <td>
-      25
-    </td>
-    <td>
-      <button class='remove-product' name="Eliminar">
-        &times;
-    </td>
-  </tr>
-    <td colspan='4'></td>
-    <th>Subtotal</th>
-    <td>$71.97</td>
-  </tr>
-  <tr>
-    <td colspan='4'></td>
-    <th>Total</th>
-    <td>$90.57</td>
-  </tr>
-</table>    
-  </body>
+   <head>
+      <meta charset="UTF-8">
+      <title>Carrito de compras</title>
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+   </head>
+   <body>
+      <h1>Gestionar Carrito</h1>
+      <table class='shopping-cart table table-bordered'>
+         <tr>
+            <th>Imagen</th>
+            <th>Nombre del producto</th>
+            <th>Model</th>
+            <th>Cantidad</th>
+            <th>Unidad por precio</th>
+            <th>Totals</th>
+            <th>Opción</th>
+         </tr>
+         <tr>
+            <td class='product-image'>
+               <img src='http://s.cdpn.io/3/dingo-dog-bones.jpg'>
+            </td>
+            <td class='product-name'>
+               example_name:@
+            </td>
+            <td class='product-price'>
+               price_name:æ
+            </td>
+            <td class='product-quantity'>
+               <input type='number' value='2'>
+            </td>
+            <td class='product-line-price'>
+               $25.98
+            </td>
+            <td>
+               25
+            </td>
+            <td>
+               <button class='remove-product btn btn-danger'>
+               Eliminar
+               </button>
+            </td>
+         </tr>
+         <td colspan='4'></td>
+         <th>Subtotal</th>
+         <td>$71.97</td>
+         </tr>
+         <tr>
+            <td colspan='4'></td>
+            <th>Total</th>
+            <td>$90.57</td>
+         </tr>
+      </table>
+   </body>
 </html>
